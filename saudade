@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+void saudade (int ano) {
+     if(ano < 2020) {
+	printf("Nostalgia.\n");
+     } else if (ano > 2020) {
+        printf("Saudade do que ainda não vivemos.\n");
+     } else {
+	printf("Fique em casa!\n");
+	}
+}
+
+int main () {
+    saudade(2020);
+}
